@@ -1,5 +1,3 @@
-# hwid
-smbios table parser and hwid checker
 # compile
 compiled with x86 vs22
 # what information is received
