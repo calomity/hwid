@@ -3,7 +3,8 @@ smbios table parser and hwid checker
 # compile
 compiled with x86 vs22
 # what information is received
-gpu information
+gpu, networkadapters, volumes, processor, harddrive, bios
+#gpu information
 -vendorid
 -deviceid
 -driver
@@ -12,18 +13,18 @@ gpu information
 -subsysid
 -guid (identifier)
 -revision
-network
+#network information
 -macaddress
-volumes
+#volumes information
 -c serialnumber
 -d serialnumber
 -c volume mount point (mountvol)
 -d volume mount point (mountvol)
-processor (logicalcpu)
+#processor (logicalcpu) information
 -processor id
-harddrive (harddisk)
+#harddrive (harddisk) information
 -serialnumber
-bios
+#bios information
 -version
 -release date
 -system bios version
